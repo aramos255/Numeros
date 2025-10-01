@@ -48,8 +48,8 @@ st.subheader("🖌️ Dibuja un número")
 canvas_result = st_canvas(
     fill_color="white",
     stroke_width=10,
-    stroke_color="black",
-    background_color="white",
+    stroke_color="white",
+    background_color="black",
     height=280,
     width=280,
     drawing_mode="freedraw",
@@ -125,5 +125,6 @@ if st.button("Predecir"):
 
     else:
         st.warning("⚠️ Por favor, dibuja un número antes de predecir.")
+
 
 
